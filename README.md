@@ -5,8 +5,8 @@ SCISS-Korea emphasizes learning by doing. For the sake of open science, we also 
  
 To do so, first sign up for a GitHub account (if you don’t have one already) no later than 6/20. Second, create a repository for your group once you confirmed your group members (gotta be done by 6/21). Third, share the code and data until 6/29. If you can’t share your project’s data for some reasons, explain them as well. 
 
-We will provide a template for the project here: https://github.com/rochelleterman/PS239T/tree/Fall_2015/16_final-projects/template
-We have a modest research fund for the best project selected by the organizers + participants: 
+- We will provide a template for the project here: https://github.com/rochelleterman/PS239T/tree/Fall_2015/16_final-projects/template
+- We have a modest research fund for the best project selected by the organizers + participants: 
 
 ## 6/20 Pitching 
 
