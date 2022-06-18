@@ -18,26 +18,31 @@ Reference: https://github.com/compsocialscience/summer-institute/blob/master/pro
 
 ## 6/21 Matching
 
-We will ask you to indicate your project preference using this link: https://docs.google.com/spreadsheets/d/1mnMF_hi7ieIOoExdNMV45DzLswGVLBX9g2rK7qkFBPY/edit?usp=sharing. We will then use a simple clustering algorithm (https://github.com/compsocialscience/summer-institute/blob/master/2021/materials/research-speed-dating/clustering_scripts.Rmd) to match you and a project. You are more pleased to switch groups but you should pick your project by the end of the research speed-dating session. 
+- We will ask you to indicate your project preference using this link: https://docs.google.com/spreadsheets/d/1mnMF_hi7ieIOoExdNMV45DzLswGVLBX9g2rK7qkFBPY/edit?usp=sharing. 
+- We will then use a simple clustering algorithm (https://github.com/compsocialscience/summer-institute/blob/master/2021/materials/research-speed-dating/clustering_scripts.Rmd) to match you and a project. 
+- You are more pleased to switch groups but you should pick your project by the end of the research speed-dating session. 
 
 ## 6/22 Scoping
 
-You need to decide what you will research within a very short span of time. Please once again edit this template (https://docs.google.com/document/d/1lF5LBW5dxRwnycv6xiisuxo51bbur0ZEnNyw7JvAGTw/edit?usp=sharing) to describe the scope of your project. You should fill out ideas, names, description, but not data sources, by 6/22.
+- You need to decide what you will research within a very short span of time. Please once again edit this template (https://docs.google.com/document/d/1lF5LBW5dxRwnycv6xiisuxo51bbur0ZEnNyw7JvAGTw/edit?usp=sharing) to describe the scope of your project. 
+- You should fill out ideas, names, description, but not data sources, by 6/22.
 
 Reference: https://www.dssgfellowship.org/2016/10/27/scoping-data-science-for-social-good-projects/ (data science for social good guideline)  
 
 ## 6/23 Collecting 
 
-You need to find data that has the right fit for your project. After you’ve done it, please fill out the data sources section in this Google document by 6/23. Think about whether the project is doable given the time and other resource constraints.  
+- You need to find data that has the right fit for your project. 
+- After you’ve done it, please fill out the data sources section in this Google document by 6/23. 
+- Please think about whether the project is doable given the time and other resource constraints.  
 
 ## 6/24-27 Analyzing 
 
-Performing data analysis. Think about what key evidence you need to test your hypotheses. 
+- Performing data analysis. Please think about what key evidence you need to test your hypotheses. 
 
 ## 6/27-28 Visualizing  
 
-Thinking about up to four figures that you would like to share with us.
+- Please prepare up to four figures that you would like to share with us.
 
 ## 6/29 Presenting 
 
-Group presentation. Each group is allowed up to 15 mins presentation to have enough time to receive feedback. 
+- Present your results and receive feedback. Each group is allowed up to 15 mins presentation to spare enough time for Q&A. 
