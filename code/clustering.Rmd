@@ -51,7 +51,7 @@ rownames(df_mat) <- df$name
 
 df_mat <- df_mat[,-1]
 
-dmatrix <- dist(df_mat, method = "binary") 
+dmatrix <- dist(df_mat, method = "euclidean") 
 
 #fit with the hierarchical clustering
 fit <- hclust(dmatrix, method="ward.D") 
