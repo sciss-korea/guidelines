@@ -9,8 +9,8 @@
 
 ## 6/20 Pitching 
 
-- If you have a research idea to share with the other participants, please go to this link (https://docs.google.com/document/d/1lF5LBW5dxRwnycv6xiisuxo51bbur0ZEnNyw7JvAGTw/edit?usp=sharing) and describe what you’re up to until 6/20 12 PM.
-- Reference: https://github.com/compsocialscience/summer-institute/blob/master/projects.md  (some selected projects inspired by, started at, in collaboration with SICSS)
+- **Research project pitching template**: If you have a research idea to share with the other participants, please go to this link (https://docs.google.com/document/d/1lF5LBW5dxRwnycv6xiisuxo51bbur0ZEnNyw7JvAGTw/edit?usp=sharing) and describe what you’re up to until 6/20 12 PM.
+- **Reference**: https://github.com/compsocialscience/summer-institute/blob/master/projects.md  (some selected projects inspired by, started at, in collaboration with SICSS)
 
 ## 6/21 Matching
 
