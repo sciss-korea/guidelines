@@ -1,0 +1,65 @@
+---
+title: "Clustering Scripts"
+date: "SICSS"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Reading the Google Sheets data
+
+
+```{r message = FALSE, echo=FALSE, warning = FALSE, error = FALSE}
+
+if(!require(pacman)) install.packages("pacman")
+
+pacman::p_load(googlesheets4, janitor, naniar, tidyverse, purrr, vegan)
+
+gs4_deauth()
+
+#link
+ss <- "https://docs.google.com/spreadsheets/d/1mnMF_hi7ieIOoExdNMV45DzLswGVLBX9g2rK7qkFBPY/edit?usp=sharing"
+
+#organizers, change the sheet name to your specific site here:
+dat <- read_sheet(ss, sheet = "participants")
+
+#clean variable names
+dat <- clean_names(dat)
+
+#replace NAs with 0s
+dat_nums <- dat[,-1] %>%
+  replace(is.na(.), 0)
+
+# add name 
+dat_nums$name <- dat$name_if_possible_please_use_your_full_name_here
+
+# filter empty rows 
+df <- dat_nums %>%
+  select(name, everything()) %>%
+  filter(!is.na(name))
+```  
+
+# Identifying maximally similar groups  
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, error = FALSE}
+#create distance matrix
+df_mat <- as.matrix(df)
+
+rownames(df_mat) <- df$name
+
+df_mat <- df_mat[,-1]
+
+dmatrix <- dist(df_mat, method = "binary") 
+
+#fit with the hierarchical clustering
+fit <- hclust(dmatrix, method="ward.D") 
+
+# display dendogram
+plot(fit) 
+
+groups <- cutree(fit, k = 6) # cut tree into 6 clusters
+
+groups
+```
