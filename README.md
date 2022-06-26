@@ -41,5 +41,6 @@ Reference: https://www.dssgfellowship.org/2016/10/27/scoping-data-science-for-so
 
 ## 6/29 Presenting 
 
-- Present your results and receive feedback. Each group is allowed up to 15 mins presentation to spare enough time for Q&A. 
+- Present your results and receive feedback. Each group is allowed up to 15 mins presentation to spare enough time for Q&A.
+- Sign-up sheet for Group presentations: https://docs.google.com/spreadsheets/d/1W-61jbsykxY6g1D60XSQTHBfvSTvPB_e2GxGgvtucA8/edit?usp=sharing 
 - Link to share your slides: https://drive.google.com/drive/folders/1BSKelZoVlZxg4FPrO6ow7LeUupk9jNO_?usp=sharing 
